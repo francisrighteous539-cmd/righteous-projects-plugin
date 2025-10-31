@@ -1,47 +1,55 @@
-# My Projects Plugin
+Righteous Projects Plugin
 
-*A simple WordPress plugin to manage and display portfolio projects.*  
-Built by *Francis Righteous Christopher*.
-
----
-
-## 🚀 Features
-- Custom Post Type: "Projects"
-- Add and manage portfolio projects in the dashboard
-- Display projects on any page using [my_projects] shortcode
-- Responsive grid layout with thumbnails and descriptions
+A custom WordPress plugin that displays and filters projects using AJAX and ACF fields.  
+Built as part of my developer portfolio to demonstrate plugin architecture, dynamic queries, and clean UI integration.
 
 ---
 
-## 🧩 Installation
-1. Download or clone this repository into /wp-content/plugins/
-2. Activate *My Projects* from the Plugins page
-3. Add projects under the new *Projects* menu
-4. Create a new page and add this shortcode:
-## 💡 Example Output
-Displays all your portfolio projects in a clean grid format with titles, images, and excerpts.
+Features
+- Registers a custom post type project
+- Uses ACF fields for:
+  - Tech Used
+  - Project Links (GitHub / Live Demo)
+- AJAX-based category filtering
+- Responsive and clean layout
+- Easily customizable via shortcode
 
 ---
 
-## 🧑‍💻 Developer Notes
-- Built with WordPress best practices
-- Code is clean, documented, and extendable
-- Perfect for portfolio showcase sites
+Technologies Used
+- PHP  
+- WordPress  
+- Advanced Custom Fields (ACF)  
+- JavaScript (AJAX / jQuery)  
+- HTML5 / CSS3
 
 ---
 
-## 📸 Screenshot
-![Screenshot of My Projects plugin](assets/featured.webp)
+ Folder Structure
+- my-tasks-plugin/
+-my-projects.php  # Main plugin file
+assets/
+ style.css #plugin styles
+ ajax-filter.js #ajax filter
 
 ---
 
-## 🧠 Skills Demonstrated
-- WordPress Plugin Development  
-- Custom Post Types  
-- Shortcodes  
-- Enqueueing Styles  
-- PHP + HTML Integration  
+ Installation
+1. Download or clone this repository.  
+2. Copy the righteous-projects folder into your /wp-content/plugins/ directory.  
+3. Activate Righteous Projects Plugin from your WordPress dashboard.  
+4. Add projects via Dashboard → Projects.  
+5. Use the shortcode [righteous_projects] on any page.
 
 ---
 
-> Created as part of my WordPress learning and career growth journey.
+Links
+- [GitHub Repository](https://github.com/francisrighteous539/righteous-projects-plugin)
+- Live Demo: *Coming soon*
+
+---
+
+Author
+Francis Righteous  
+WordPress and Developer  
+[GitHub Profile](https://github.com/francisrighteous539)
