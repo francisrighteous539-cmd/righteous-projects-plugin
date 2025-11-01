@@ -38,15 +38,15 @@ assets/
 
 # 1. Plugin Dashboard
 Shows the plugin inside the WordPress admin area.
-![Dashboard](screenshot-dashboard.png)
+![Dashboard](assets/screenshot-dashboard.png)
 
 ### 2. Projects Page
 Displays added projects with featured images and ACF fields.
-![Projects Page](screenshot-projects.png)
+![Projects Page](assets/screenshot-projects.png)
 
 ### 3. Frontend Display
 Shows how the projects appear using the shortcode [righteous_projects].
-![Frontend View](screenshot-backend.png)
+![Frontend View](assets/screenshot-backend.png)
 
 # Installation
 1. Download or clone this repository.  
