@@ -47,7 +47,7 @@ add_action('init', 'mp_register_projects_cpt');
  * Enqueue plugin styles
  */
 function mp_enqueue_styles() {
-    wp_enqueue_style('mp-style', plugin_dir_url(_FILE_) . 'assets/style.css');
+    wp_enqueue_style('mp-style', plugin_dir_url(__FILE__) . 'assets/style.css');
 }
 add_action('wp_enqueue_scripts', 'mp_enqueue_styles');
 
